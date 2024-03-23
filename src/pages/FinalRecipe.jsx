@@ -25,7 +25,7 @@ function FinalRecipe() {
   return (
     <div className="m-2 px-3">
       <GoBackButton />
-      <p>clickek item{location.state.catname}</p>
+
       <div className="flex flex-col items-center">
         {steps.map((step) => (
           <div
